@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - Junior Manual QA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-toggle-container">
+        <button id="theme-toggle">Змінити тему</button>
+    </div>
+    <header>
+        <h1>Daria Horodetska</h1>
+        <p><strong>Position:</strong> Manual QA Engineer</p>
+        <p>Location: Lviv, Ukraine | Email: dashagorodetska@gmail.com</p>
+    </header>
+
+    <hr>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>
+            Detail-oriented Junior Manual QA Engineer with 7 months of hands-on experience in web application testing. 
+            Proficient in functional testing, bug reporting, and test documentation. 
+            Knowledgeable in SDLC/STLC and Agile methodologies. Strong analytical skills with a B2 level of English.
+        </p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <div>
+            <p><strong>Manual QA Engineer | EPAM Systems (Project: TALK)</strong> | Sept 2025 – Present</p>
+            <ul>
+                <li><strong>AI-Driven Testing:</strong> Developed and optimized complex AI prompts to analyze User Stories and automatically generate comprehensive test documentation.</li>
+                <li><strong>Test Documentation:</strong> Created and maintained high-quality test artifacts, including detailed Test Cases, Checklists, and Bug Reports.</li>
+                <li><strong>Test Execution:</strong> Performed functional, regression, UI/UX, and API testing, ensuring the correctness of back-end logic and data integrity.</li>
+                <li><strong>Defect Management:</strong> Identified, documented, and tracked software defects in Jira, providing detailed reproduction steps and logs.</li>
+                <li><strong>Technical Analysis:</strong> Used Chrome DevTools for front-end debugging and network traffic analysis.</li>
+                <li><strong>Agile Collaboration:</strong> Active participation in Scrum ceremonies, including daily stand-ups, sprint planning, and refinements.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Tools & Technologies</th>
+            </tr>
+            <tr>
+                <td>Methodologies</td>
+                <td>Agile (Scrum, Kanban), SDLC, STLC</td>
+            </tr>
+            <tr>
+                <td>API Testing</td>
+                <td>Postman (REST API), JSON</td>
+            </tr>
+            <tr>
+                <td>Databases</td>
+                <td>SQL (Basic queries, SELECT, JOIN)</td>
+            </tr>
+            <tr>
+                <td>Tools</td>
+                <td>Jira, Confluence, Git, Chrome DevTools</td>
+            </tr>
+            <tr>
+                <td>Testing Types</td>
+                <td>Functional, Smoke, Regression, Exploratory Testing</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Soft Skills</h2>
+        <ul>
+            <li><strong>Attention to Detail:</strong> Ability to spot minor inconsistencies and edge cases during testing.</li>
+            <li><strong>Critical Thinking:</strong> Analyzing requirements from a user’s perspective to identify potential logic gaps.</li>
+            <li><strong>Communication:</strong> Clear and concise bug reporting and effective collaboration with developers and stakeholders.</li>
+            <li><strong>Adaptability:</strong> Fast learner, especially in integrating AI tools and new testing methodologies.</li>
+            <li><strong>Time Management:</strong> Prioritizing tasks in a fast-paced Agile environment to meet sprint deadlines.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>Lviv Polytechnic National University</strong></p>
+        <p>Degree in Cybersecurity (In progress)</p>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <ul>
+            <li>Ukrainian — Native</li>
+            <li>English — <strong>B2 (Upper Intermediate)</strong></li>
+        </ul>
+    </section>
+
+    <section id="reviews-section">
+        <h2>Відгуки попередніх роботодавців</h2>
+        <div id="comments-container">
+            <p>Завантаження відгуків...</p>
+        </div>
+    </section>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <h3>Зворотній зв'язок</h3>
+            <form action="https://formspree.io/f/meerlpor" method="POST">
+                <input type="text" name="name" placeholder="Ім’я" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Номер телефону" required>
+                <textarea name="message" placeholder="Ваше повідомлення" required></textarea>
+                <button type="submit">Відправити</button>
+                <button type="button" id="close-modal">Закрити</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <div id="footer-info"></div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
